@@ -1,0 +1,8 @@
+name: test-website
+apps:
+  - StaticWebsite:
+      build_directory: .next
+      s3_bucket_name: blah-blah-blah
+  - StaticWebsite:
+      build_directory: .next
+      azure_blob_name: blah-blah-blah 
